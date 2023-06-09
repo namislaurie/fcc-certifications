@@ -1,0 +1,77 @@
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">Are you an otaku ?</h1>
+<p id="description" > It's a questionnaire.</p>
+
+<form id="survey-form">
+      <div class="input-element">
+      <label type="name-label" id="name-label">
+      Name
+      </label>
+      <input placeholder="name" id="name" type="name" required/>
+      </div>
+      <div class="input-element"> 
+      <label type="email-label" id="email-label">
+      Email
+      </label>
+      <input placeholder="email" id="email" type="email" required/>
+      </div>
+      <div class="input-element">
+      <label type="number-label" id="number-label">
+    Age
+      </label>
+      <input placeholder="age" id="number" min="18" max="70" type="number" required/>
+      </div>
+      </div>
+      <div class="input-element">
+      <label type="select-label">
+      What's your favorite manga/anime ?
+      </label>
+      <select id="dropdown">
+      <option>Naruto</option>
+      <option>One Piece</option>
+      <option>Bleach</option>
+      </select>
+      </div>
+
+  <div class="input-element">
+      <label>Do you watch anime ?</label> 
+      <div>
+      <label><input type="radio" name="anime" value="yes"/>Yes</label>
+      </div>
+
+      <div>
+      <label><input type="radio"
+      name="anime" value="no"/>No</label>
+      </div>
+  </div>
+
+      <div class="input-element">
+      <label>In Naruto, who killed Sarutobi ?</label>
+      </div>
+
+      <div>
+      <label><input type="checkbox" name="ma" value="1"/>Pain</label>
+      </div>
+
+      <div> 
+      <label><input type="checkbox"
+      name="ma" value="2" />Kabuto</label>
+      </div>
+      <div> 
+      <label><input type="checkbox"
+      name="ma" value="3" />Zabuza</label>
+      </div>
+      <div> 
+      <label><input type="checkbox"
+      name="ma" value="4" />Orochimaru</ label>
+      </div>
+</div>
+
+      <div class="input-element">
+      <label>Additional comments</label>
+      <textarea type="text"></textarea>
+      </div>
+      <button type="submit" id="submit">
+      Submit</button>
+
+</form>
